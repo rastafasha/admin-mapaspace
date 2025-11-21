@@ -29,10 +29,6 @@ import { PaisesComponent } from './manage/paises/paises.component';
 
 import { ComponentsModule } from '../components/componets.modulo';
 
-import{PrensaIndexComponent} from './prensa/prensa-index/prensa-index.component';
-import{PrensaEditComponent} from './prensa/prensa-edit/prensa-edit.component';
-import{SliderIndexComponent} from './slider/slider-index/slider-index.component';
-import{SliderEditComponent} from './slider/slider-edit/slider-edit.component';
 import { UsersComponent } from './users/users.component';
 import { UserDetailsComponent } from './users/user-details/user-details.component';
 // import { VideoIndexComponent } from './videos/video-index/video-index.component';
@@ -48,10 +44,6 @@ import { UserDetailsComponent } from './users/user-details/user-details.componen
         DashboardComponent,
         PaisComponent,
         PaisesComponent,
-        PrensaIndexComponent,
-        PrensaEditComponent,
-        SliderIndexComponent,
-        SliderEditComponent,
         UsersComponent,
         UserDetailsComponent
 
@@ -65,10 +57,6 @@ import { UserDetailsComponent } from './users/user-details/user-details.componen
         DashboardComponent,
         PaisComponent,
         PaisesComponent,
-        PrensaIndexComponent,
-        PrensaEditComponent,
-        SliderIndexComponent,
-        SliderEditComponent,
         UsersComponent,
         UserDetailsComponent
         // VideoIndexComponent,

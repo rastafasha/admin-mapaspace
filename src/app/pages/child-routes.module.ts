@@ -6,10 +6,6 @@ import { Routes, RouterModule } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { PaisComponent } from './forms/pais/pais.component';
 import { PaisesComponent } from './manage/paises/paises.component';
-import { PrensaEditComponent } from './prensa/prensa-edit/prensa-edit.component';
-import { PrensaIndexComponent } from './prensa/prensa-index/prensa-index.component';
-import { SliderEditComponent } from './slider/slider-edit/slider-edit.component';
-import { SliderIndexComponent } from './slider/slider-index/slider-index.component';
 import { UsersComponent } from './users/users.component';
 import { UserDetailsComponent } from './users/user-details/user-details.component';
 // import { VideoEditComponent } from './videos/video-edit/video-edit.component';
@@ -26,16 +22,8 @@ const childRoutes: Routes = [
             { path: 'pais/create', component: PaisComponent},
             { path: 'pais/edit/:id', component: PaisComponent},
 
-            { path: 'prensa', component: PrensaIndexComponent},
-            { path: 'prensa/create', component: PrensaEditComponent},
-            { path: 'prensa/edit/:id', component: PrensaEditComponent},
-
-            { path: 'slider', component: SliderIndexComponent},
-            { path: 'slider/create', component: SliderEditComponent},
-            { path: 'slider/edit/:id', component: SliderEditComponent},
-
             { path: 'usuarios', component: UsersComponent },
-            { path: 'usuario/edit/:id', component: UserDetailsComponent},
+            { path: 'user/edit/:id', component: UserDetailsComponent},
 
 
     { path: '', redirectTo: 'admin', pathMatch: 'full' },
